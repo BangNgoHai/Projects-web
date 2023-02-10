@@ -63,18 +63,18 @@ updateProjects();
 function updateCourse() {
     const data1s = [
         {
-            title:"filmweb-api",
-            img:"./assets/images/filmweb.png",
-            url:"./components/filmwebproject/index.html"
+            title:"random-quotes",
+            img:"./assets/images/random-quotes.png",
+            url:"./components/random-quote-generator/index.html"
         },
         {
-            title:"rgb-game",
-            img:"./assets/images/rgbproject.png",
-            url:"./components/rgbproject/index.html"
+            title:"month-calendar",
+            img:"./assets/images/month-calender.png",
+            url:"./components/month-calender/index.html"
         },{
-            title:"realtime-calender",
-            img:"./assets/images/simplecalender.png",
-            url:"./components/calender/index.html"
+            title:"photo-gallery",
+            img:"./assets/images/photo-gallery.png",
+            url:"./components/uplash-api/index.html"
         }
     ];
     
