@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+header{
+    height: 470px;
+    width: 80vw;
+    padding: 50px 150px 50px 150px;
+    display: flex;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: Inconsolata, Monospace;
+    margin: 40px;
+}
+
+header p{
+    font-size: 25px;
+    margin: 40px;
+}
+
+header .header-title{
+    min-width: 50%;
+}
+
+header img{
+    height: 350px;
+    width: 50%;
+    padding-top: 40px;
+    display: block;
+}
+
+button{
+    height: 70px;
+    width: 230px;
+    background-color: lightblue;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    transition: all 0.6s;
+}
+
+button:hover{
+    background-color: #00337C;
+    color: aliceblue;
+}
+
+.bigger{
+    transform: scale(110%);
+}
+
+.smaller{
+    transform: scale(100%);
+}
+
+@media(max-width: 1500px){
+    header img{
+        display: none;
+    }
+    header .header-title{
+        max-width: 80%;
+    }
+    header{
+        padding: 50px 30px 50px 30px;
+        height: 100%;
+    }
+}
+
+.container{
+    background-color: #BDCDD6;
+    font-family: Inconsolata, Monospace;
+    margin: 20px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 130;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.title-underline{
+    height: 0.3rem;
+    width: 120px;
+    background: #F2CD5C;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card{
+    height: 300px;
+    width: 420px;
+    background-color: aliceblue;
+    margin: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+@media(max-width: 1000px){
+    #card{
+        width: 80%;
+    }
+}
+
+@media(max-width: 370px){
+    .container{
+        width: 350px;
+        margin: 10px;
+    }
+}
+
+
+
+#card-img{
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#card h3{
+   text-align: center;
+}
+
+#card:hover {
+    transform: scale(110%);
+}
+
+
