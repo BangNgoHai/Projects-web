@@ -74,7 +74,7 @@ function updateCourse() {
         },{
             title:"photo-gallery",
             img:"./assets/images/photo-gallery.png",
-            url:"./components/uplash-api/index.html"
+            url:"./components/unplash-api/index.html"
         }
     ];
     
